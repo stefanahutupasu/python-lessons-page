@@ -1,0 +1,162 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the body takes up the full height of the viewport */
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fffcef;
+    /* background-image: radial-gradient(at top right, hsla(180, 100%, 54%, 0.158), transparent);
+    background-size: auto auto;
+    background-repeat: no-repeat; */
+    
+    color:#021e23;
+}
+
+/* Navbar Styles */
+#navbar {
+    background-color: #12323a; /* Navbar background color */
+    position: fixed; /* Makes the navbar stay at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* Ensures navbar stays above other content */
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space out title and menu */
+    align-items: center; /* Vertically center align items */
+    padding: 0 10px; /* Add some horizontal padding */
+}
+
+#navbar-title {
+    padding-left: 10px;
+    color: white; /* Title color */
+    font-size: 16px; /* Adjust size as needed */
+}
+
+#navbar ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-block: 5px;
+    display: flex; /* Enable flexbox for the list */
+}
+
+#navbar ul li {
+    margin-right: 20px; /* Add some space between menu items */
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px;
+    border-style:solid solid none solid;
+    border-color: #fffcef;
+    
+    background-image: radial-gradient(at top, hsla(60, 100%, 93%, 0.21), transparent);
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 15px;
+}
+
+#navbar ul li a:hover {
+    background-color: #042023;
+    background-image: none;
+    border-radius: 15px;
+}
+
+
+/* Hero Section Styles */
+#home {
+    height: 90vh; /* Sets the height to full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px; /* Adjust based on the height of the fixed navbar */
+}
+
+/* #home h1 {
+    font-weight: 600;
+} */
+
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 40px;
+}
+
+
+#hero-img {
+    flex: 1;
+    text-align: center;
+}
+
+#hero-img img {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: auto;
+}
+
+#hero-txt {
+    text-align: justify;
+  text-justify: inter-word;
+    flex: 1;
+    padding-inline: 50px;
+}
+
+#hero-txt h2 {
+    color:#021e23;
+    font-weight: 400;
+    /* font-size: larger; */
+}
+
+#hero-txt span {
+    font-weight: bold;
+}
+
+/* Modules Section Styles */
+#modules {
+    height: 90vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    flex-direction: column; /* Stack items vertically */
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding doesn't affect height */
+
+
+    background-image:url("/assets/bg-modules.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%;
+    /* background-image: radial-gradient(at bottom left, hsla(60, 100%, 52%, 0.21), transparent); */
+
+}
+
+#modules h2 {
+    color:#fffcef;
+}
+
+#modules ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#modules ul li {
+    padding: 10px;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+#c-modules {
+    background-color: #12323a;
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+    color:#fffcef;
+    background-image: radial-gradient(at top, hsla(60, 100%, 93%, 0.21), transparent);
+    border: 1px;
+    border-style:solid solid none solid;
+    border-color: #fffcef;
+
+}
