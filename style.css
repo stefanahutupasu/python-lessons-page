@@ -127,7 +127,7 @@ body, html {
     box-sizing: border-box; /* Ensures padding doesn't affect height */
 
 
-    background-image:url("./assets/bg-modules.png");
+    background-image:url("../assets/bg-modules.png");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: 100%;
     /* background-image: radial-gradient(at bottom left, hsla(60, 100%, 52%, 0.21), transparent); */
