@@ -148,6 +148,8 @@ body, html {
     /* border-bottom: 1px solid #ddd; */
 }
 
+
+
 #c-modules {
     background-color: #12323a;
     border-radius: 30px;
@@ -160,3 +162,93 @@ body, html {
     border-color: #fffcef;
 
 }
+
+#modules ul li a{
+    color:#fffcef;
+}
+
+
+/* Module 1 Section Styles */
+#module1 {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+    background-color: #fffcef; /* Light background for the module */
+    padding: 20px; /* Padding around the module content */
+    margin: 20px; /* Margin around the module for spacing */
+    border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+#module1 h2 {
+    padding-top: 10px;
+    color: #105465; /* Dark color for the module title */
+    text-align: center; /* Center align the module title */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 28px; /* Slightly larger font for the title */
+}
+
+.module-flex-container {
+    display: flex;
+    align-items: flex-start; /* Align children to the start (top) */
+    justify-content: space-between;
+    /* ... other styles for flex container ... */
+}
+
+
+
+#module1 article {
+    margin-bottom: 20px; /* Space between each lesson */
+    padding: 10px; /* Padding inside each lesson */
+    border-left: 5px solid #ffcc00; /* Left border for a touch of style */
+}
+
+#module1 article h3 {
+    
+   /* white-space: pre; */
+   
+    color: #105465; /* Color to match the left border */
+    margin-bottom: 10px; /* Space below the lesson title */
+    font-size: 22px; /* Font size for lesson titles */
+}
+
+
+
+#module1 ul {
+    list-style: inside square; /* Style for bullet points */
+}
+
+#module1 li {
+    
+    color: #555; /* Dark grey color for list items */
+    line-height: 1.6; /* Line height for readability */
+    padding-left: 5px; /* Left padding for list items */
+}
+
+
+.module-content, .module-image {
+    
+    /* text-align: center; */
+    flex: 1; /* This ensures that both the content and image take equal space */
+    padding: 15px; /* Adjust padding as needed */
+
+    
+    
+}
+
+.module-image {
+    align-items: flex-start; /* Align the image to the top */
+
+}
+
+.module-image img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 800px; /* Maximum width of the image, adjust as needed */
+}
+
+
+
+
+
+
