@@ -186,6 +186,9 @@ body, html {
     text-align: center; /* Center align the module title */
     margin-bottom: 20px; /* Space below the title */
     font-size: 28px; /* Slightly larger font for the title */
+
+    
+
 }
 
 .module-flex-container {
@@ -210,8 +213,32 @@ body, html {
     color: #105465; /* Color to match the left border */
     margin-bottom: 10px; /* Space below the lesson title */
     font-size: 22px; /* Font size for lesson titles */
+
+    /* text-align: center; */
+    
+
 }
 
+#module1 article h3 a {
+    color: #fffcef;
+
+    background-color: #105465;
+    text-decoration: none;
+
+    padding: 3px;
+    padding-inline: 10px;
+
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+#module1 article h3 a:hover {
+
+    background-color: #062e38;
+    box-shadow: 0 3px 10px rgba(255, 200, 0, 0.505);
+
+}
 
 
 #module1 ul {
